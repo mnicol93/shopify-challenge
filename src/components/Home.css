@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(136, 134, 134);
+}
+
+.loading-window{
+    display: flex;    
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: gray;
+
+}
+.loading-text{
+    font-size: 24px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+/* #text{
+    font-weight: lighter;
+    font-size: 2px;
+} */
