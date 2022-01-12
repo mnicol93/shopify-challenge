@@ -12,7 +12,7 @@ function Home(){
     const api = 'https://api.nasa.gov/planetary/apod?'
     const apiKey = 'api_key=KlkDfF9JFLyn7nS1iwrO5hDtOX3vvghSZeGWLpgd&date=2020-01-07'
     let isVideo = false;
-
+//MARE
     useEffect(() => {
         fetch(`${api}${apiKey}`).then(res => res.json())
         .then((result) => {
