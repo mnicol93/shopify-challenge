@@ -1,4 +1,5 @@
 import Home from './components/Home';
+import NavBar from './components/Shared/NavBar' 
 
 import './App.css';
 
@@ -6,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <h1>SPACEGRAM - SHOPIFY</h1>
+      <NavBar/ >
       <Home />
     </>
   );
