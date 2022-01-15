@@ -4,7 +4,7 @@ import './NavBar.css';
 
 function NavBar(){
     return(
-        <Navbar bg="light" variant="light">
+        <Navbar bg="primary" variant="light">
             <Container>
                 <Navbar.Brand href="#">SPACEGRAM</Navbar.Brand>
                 <Nav className="me-auto">
